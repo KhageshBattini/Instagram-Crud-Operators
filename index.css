@@ -1,0 +1,44 @@
+#post {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  margin: auto;
+}
+
+#post img {
+  width: 100%;
+}
+#post div {
+  margin: 3%;
+  border: solid 1px black;
+  width: 450px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar div {
+  display: flex;
+  justify-content: center;
+}
+#logo {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+#logo img {
+  width: 15%;
+}
+
+#search {
+  flex: 2;
+}
+
+#options {
+  flex: 3;
+  display: flex;
+  align-items: center;
+}
